@@ -1,0 +1,21 @@
+{
+  "name": "nem",
+  "version": "1.0.0",
+  "description": "npm + gem = nem: Publish dependency free Ruby CLI gems on npm",
+  "homepage": "https://github.com/janlelis/nem",
+  "author": {
+    "name": "Jan Lelis",
+    "email": "mail@janlelis.de"
+  },
+  "keywords": [
+    "nem",
+    "ruby",
+    "gem",
+    "npm"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "nem": "bin/nem"
+  },
+  "license": "MIT"
+}
