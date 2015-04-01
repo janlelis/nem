@@ -19,9 +19,9 @@ Or via npm:
 * Write your gemspec (example: [nem.gemspec](https://github.com/janlelis/nem/blob/master/nem.gemspec))
 * Run the following command to generate a `package.json` file:
 
-
-    $ nem
-
+```
+$ nem
+```
 
 * Optional: Command-line arguments to `nem` will be interpreted as keywords for npm's search
 * That's it. Only step left: Publish it on the rubygems & npm public registries
