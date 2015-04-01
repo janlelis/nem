@@ -1,6 +1,6 @@
 # nem [![[gem]](https://badge.fury.io/rb/nem.svg)](https://badge.fury.io/rb/nem) [![[npm]](https://img.shields.io/npm/v/nem.svg)](https://www.npmjs.com/package/nem)
 
-Contrary to common belief, npm[https://www.npmjs.com/] does not stand for "node package manager". In fact it is a [package make installer](https://docs.npmjs.com/misc/faq#if-npm-is-an-acronym-why-is-it-never-capitalized), which just happens to be written in node. Hence it is not only meant to be used for node (or iojs[https://iojs.org/]) modules. It is also great for command-line tools written in Ruby!
+Contrary to common belief, [npm](https://www.npmjs.com/) does not stand for "node package manager". In fact it is a [package make installer](https://docs.npmjs.com/misc/faq#if-npm-is-an-acronym-why-is-it-never-capitalized), which just happens to be written in node. Hence it is not only meant to be used for node (or [iojs](https://iojs.org/)) modules. It is also great for command-line tools written in Ruby!
 
 ## Install
 
@@ -19,7 +19,9 @@ Or via npm:
 * Write your gemspec (example: [nem.gemspec](https://github.com/janlelis/nem/blob/master/nem.gemspec))
 * Run the following command to generate a `package.json` file:
 
+
     $ nem
+
 
 * Optional: Command-line arguments to `nem` will be interpreted as keywords for npm's search
 * That's it. Only step left: Publish it on the rubygems & npm public registries
