@@ -6,9 +6,9 @@ Gem::Specification.new do |gem|
   gem.name          = "nem"
   gem.version       = Nem::VERSION
   gem.summary       = "npm + gem = nem"
-  gem.description   = "npm + gem = nem: Publish dependency free Ruby CLI gems on npm"
+  gem.description   = "npm + gem = nem: Publish dependency free Ruby CLI gems on npm. Converts the gemspec to a package.json file."
   gem.authors       = ["Jan Lelis"]
-  gem.email         = ["mail@janlelis.de"]
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/nem"
   gem.license       = "MIT"
 
@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.required_ruby_version = "~> 2.0"
+  gem.required_ruby_version = ">= 2.0"
 end
